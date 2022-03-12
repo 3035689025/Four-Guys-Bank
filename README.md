@@ -2,7 +2,7 @@
 
 
 
-### Initialize using Virtual Box
+## Initialize using Virtual Box
 1. download FourGuysBank at https://drive.google.com/file/d/1rOvYllXjxSIgvYLjjI75s667laxcrv8n/view?usp=sharing
 2. download the Oracle Virtual Box 6.1.28 and its **extention** at https://www.virtualbox.org/wiki/Downloads 
 3. Open the Virtual Box and **import** FourGuysBank
@@ -10,16 +10,16 @@
 5. open a terminal under the directory ~/Desktop/COMP3278_Project
 6. run `./run.sh` to execute the program and access http://127.0.0.1:5000
 
-### Solution on potential errors
+## Solution on potential errors
 1. If you encountered "failed to open a session for the virtual machine" error, reinstall Oracle Virtual Box 6.1.26 (older version) and its extention at https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
 2. For Mac OS users, you may need to grant permission to the software during installation. (System Preferences -> Security & Privacy -> General -> Allow Oracle to load) (more information in the video)
 3. For Windows "cannot open session error, Go to BIOS OC -> CPU feature -> SVM mode (enabled)
 
-### Other information
-#### Ubuntu
+## Other information
+### Ubuntu
 Username : comp3278  
 Password : comp3278
-#### MySQL
+### MySQL
 Username : root  
 Password : !@#$%^&*()qwertyuiopWinter2021
 
@@ -30,12 +30,12 @@ If you want to run the face recognition to register your faceID, you have to
     (Manually terminate the training using Ctrl + C if it is too lag later on since it runs in a forever loop)
 3. Login at the home page with your faceID.
 
-### Build from scratch
+## Build from scratch
 #### VirtualBox
 download **virtualbox** and **extention**
 website : https://www.virtualbox.org/wiki/Downloads
 
-### MySQL
+#### MySQL
 
 website : https://ubuntu.com/server/docs/databases-mysql
 
