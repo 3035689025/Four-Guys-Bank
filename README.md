@@ -1,10 +1,10 @@
 # Four Guys Bank
 ## an Intelligent Know Your Customer (iKYC) system with facial ID login function
 
-Members
-Cheng Mo Shun - 3035688825
-Kwok Chun Yu - 3035721615
-Lam Hang Yu - 3035684752
+Members\
+Cheng Mo Shun - 3035688825\
+Kwok Chun Yu - 3035721615\
+Lam Hang Yu - 3035684752\
 Luk Chin Kiu - 3035689025
 
 
