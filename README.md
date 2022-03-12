@@ -1,6 +1,8 @@
-# FourGuys Bank
+# Four Guys Bank
 
-## Initialize using Virtual Box
+
+
+### Initialize using Virtual Box
 1. download FourGuysBank at https://drive.google.com/file/d/1rOvYllXjxSIgvYLjjI75s667laxcrv8n/view?usp=sharing
 2. download the Oracle Virtual Box 6.1.28 and its **extention** at https://www.virtualbox.org/wiki/Downloads 
 3. Open the Virtual Box and **import** FourGuysBank
@@ -21,15 +23,15 @@ Password : comp3278
 Username : root  
 Password : !@#$%^&*()qwertyuiopWinter2021
 
-## Training face recognition model
+### Training face recognition model
 If you want to run the face recognition to register your faceID, you have to 
 1. register your face at the home page of FourGuysBank.
 2. Train the face recognition AI using the command `python3 train.py`  
     (Manually terminate the training using Ctrl + C if it is too lag later on since it runs in a forever loop)
 3. Login at the home page with your faceID.
 
-## Build from scratch
-### VirtualBox
+### Build from scratch
+#### VirtualBox
 download **virtualbox** and **extention**
 website : https://www.virtualbox.org/wiki/Downloads
 
@@ -85,7 +87,7 @@ export FLASK_APP=main
 export FLASK_ENV=development
 flask run
 ```
-`
+
 or
 ```
 chmod u+x ./run.sh
